@@ -27,10 +27,10 @@ rm -rf "${ADDONS_DIR}/Turtle-Dragonflight"
 cd "$TWOW_DIR"
 
 # Download the SuperWoW release
-wget https://github.com/balakethelock/SuperWoW/releases/download/Release/SuperWoW.release.1.2.zip
+wget https://github.com/balakethelock/SuperWoW/releases/download/Release/SuperWoW.release.1.3.zip
 
 # Extract the zip file
-unzip SuperWoW.release.1.2.zip
+unzip SuperWoW.release.1.3.zip
 
 # Remove the zip file
-rm SuperWoW.release.1.2.zip
+rm SuperWoW.release.1.3.zip
