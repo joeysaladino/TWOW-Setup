@@ -13,15 +13,15 @@ git clone https://github.com/balakethelock/SuperAPI.git
 git clone https://github.com/shagu/pfQuest.git
 git clone https://github.com/shagu/pfQuest-turtle.git
 
-# Move tDF into the AddOns folder
-mv "${ADDONS_DIR}/Turtle-Dragonflight/tDF" "${ADDONS_DIR}/"
+# Move Turtle-Dragonflight into the AddOns folder
+mv "${ADDONS_DIR}/Turtle-Dragonflight" "${ADDONS_DIR}/"
 
 # Move Minimap and TargetingFrame into the Interface folder
 mv "${ADDONS_DIR}/Turtle-Dragonflight/Interface/Minimap" "${TWOW_DIR}/Interface/"
 mv "${ADDONS_DIR}/Turtle-Dragonflight/Interface/TargetingFrame" "${TWOW_DIR}/Interface/"
 
-# Remove the Turtle-Dragonflight directory
-rm -rf "${ADDONS_DIR}/Turtle-Dragonflight"
+# Remove the Turtle-Dragonflight directory - After the restructure, this wont be needed
+# rm -rf "${ADDONS_DIR}/Turtle-Dragonflight"
 
 # Navigate to the TurtleWoW directory
 cd "$TWOW_DIR"
