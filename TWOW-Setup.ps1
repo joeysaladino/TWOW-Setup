@@ -82,10 +82,10 @@ try {
 }
 
 # Download the SuperWoW release
-Invoke-WebRequest -Uri "https://github.com/balakethelock/SuperWoW/releases/download/Release/SuperWoW.release.1.3.zip" -OutFile "$TWOW_DIR\SuperWoW.release.1.3.zip"
+Invoke-WebRequest -Uri "https://github.com/balakethelock/SuperWoW/releases/download/Release/SuperWoW.release.1.5.1.zip" -OutFile "$TWOW_DIR\SuperWoW.release.1.5.1.zip"
 
 # Extract the zip file
-Expand-Archive -Path "$TWOW_DIR\SuperWoW.release.1.3.zip" -DestinationPath $TWOW_DIR -Force
+Expand-Archive -Path "$TWOW_DIR\SuperWoW.release.1.5.1.zip" -DestinationPath $TWOW_DIR -Force
 
 # Remove the zip file
-Remove-Item -Path "$TWOW_DIR\SuperWoW.release.1.3.zip" -Force
+Remove-Item -Path "$TWOW_DIR\SuperWoW.release.1.5.1.zip" -Force
